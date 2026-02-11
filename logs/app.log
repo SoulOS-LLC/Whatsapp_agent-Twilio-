@@ -1,0 +1,1699 @@
+2026-02-08 20:12:20.135 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-08 20:12:20.135 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-08 20:12:20.135 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-08 20:12:20.135 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-08 20:12:20.334 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "hindu_agent"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-08 20:12:20.334 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "hindu_agent"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-08 20:12:20.335 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "hindu_agent"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-08 20:12:20.335 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "hindu_agent"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-08 20:12:21.450 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-08 20:12:21.450 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-08 20:12:21.450 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-08 20:12:21.450 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-08 20:12:21.450 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-1.5-pro
+2026-02-08 20:12:21.450 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-1.5-pro
+2026-02-08 20:12:21.451 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-08 20:12:21.451 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-08 20:12:21.494 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-08 20:12:21.494 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-08 20:12:21.518 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-08 20:12:21.518 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-08 20:12:21.537 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-08 20:12:21.537 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-08 20:12:21.537 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-08 20:12:21.537 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-08 20:12:21.538 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-08 20:12:21.538 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-08 20:13:14.586 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-08 20:13:14.586 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-08 20:13:14.586 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-08 20:13:14.586 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-08 20:13:14.750 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-08 20:13:14.750 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-08 20:13:14.750 | SUCCESS  | main:startup_event:73 - Database initialized
+2026-02-08 20:13:14.750 | SUCCESS  | main:startup_event:73 - Database initialized
+2026-02-08 20:13:15.762 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-08 20:13:15.762 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-08 20:13:15.763 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-08 20:13:15.763 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-08 20:13:15.763 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-1.5-pro
+2026-02-08 20:13:15.763 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-1.5-pro
+2026-02-08 20:13:15.764 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-08 20:13:15.764 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-08 20:13:15.793 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-08 20:13:15.793 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-08 20:13:15.819 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-08 20:13:15.819 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-08 20:13:15.842 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-08 20:13:15.842 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-08 20:13:15.842 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-08 20:13:15.842 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-08 20:13:15.842 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-08 20:13:15.842 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-08 20:14:04.133 | ERROR    | utils.database:get_db:61 - Database error: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2026-02-08 20:14:04.133 | ERROR    | utils.database:get_db:61 - Database error: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2026-02-08 20:14:04.145 | ERROR    | utils.database:check_db_health:91 - Database health check failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2026-02-08 20:14:04.145 | ERROR    | utils.database:check_db_health:91 - Database health check failed: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2026-02-08 20:14:36.927 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is dharma?...
+2026-02-08 20:14:36.927 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is dharma?...
+2026-02-08 20:14:36.928 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-08 20:14:36.928 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-08 20:14:37.165 | ERROR    | agents.base_agent:execute:71 - [RAG_Scripture_Agent] Failed: 404 models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-08 20:14:37.165 | ERROR    | agents.base_agent:execute:71 - [RAG_Scripture_Agent] Failed: 404 models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-08 20:14:37.165 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-08 20:14:37.165 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-08 20:14:37.210 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 44ms
+2026-02-08 20:14:37.210 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 44ms
+2026-02-08 20:14:37.211 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-08 20:14:37.211 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-08 20:14:37.249 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-08 20:14:37.249 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-08 20:14:37.337 | ERROR    | agents.gemini_agent:process:75 - [Gemini_AI_Agent] Generation failed: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-08 20:14:37.337 | ERROR    | agents.gemini_agent:process:75 - [Gemini_AI_Agent] Generation failed: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-08 20:14:37.337 | ERROR    | agents.base_agent:execute:71 - [Gemini_AI_Agent] Failed: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-08 20:14:37.337 | ERROR    | agents.base_agent:execute:71 - [Gemini_AI_Agent] Failed: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-08 20:14:39.445 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 2234ms
+2026-02-08 20:14:39.445 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 2234ms
+2026-02-08 20:14:41.742 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-08 20:14:41.742 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-08 20:14:43.007 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-08 20:14:43.007 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-08 20:14:43.038 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for test_123
+2026-02-08 20:14:43.038 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for test_123
+2026-02-08 20:14:43.047 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for test_123
+2026-02-08 20:14:43.047 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for test_123
+2026-02-09 17:41:45.432 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-09 17:41:45.432 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-09 17:41:45.432 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-09 17:41:45.432 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-09 17:41:45.438 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:41:45.438 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:41:45.438 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:41:45.438 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:41:46.377 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-09 17:41:46.377 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-09 17:41:46.378 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-09 17:41:46.378 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-09 17:41:46.378 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-pro
+2026-02-09 17:41:46.378 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-pro
+2026-02-09 17:41:46.378 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-09 17:41:46.378 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-09 17:41:46.427 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-09 17:41:46.427 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-09 17:41:46.451 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-09 17:41:46.451 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-09 17:41:46.471 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-09 17:41:46.471 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-09 17:41:46.471 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-09 17:41:46.471 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-09 17:41:46.471 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-09 17:41:46.471 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-09 17:42:14.717 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is dharma?...
+2026-02-09 17:42:14.717 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is dharma?...
+2026-02-09 17:42:14.717 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-09 17:42:14.717 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-09 17:42:14.717 | ERROR    | agents.base_agent:execute:71 - [RAG_Scripture_Agent] Failed: 'Settings' object has no attribute 'EMBEDDING_MODEL'
+2026-02-09 17:42:14.717 | ERROR    | agents.base_agent:execute:71 - [RAG_Scripture_Agent] Failed: 'Settings' object has no attribute 'EMBEDDING_MODEL'
+2026-02-09 17:42:14.717 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-09 17:42:14.717 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-09 17:42:14.723 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:14.723 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:14.723 | ERROR    | agents.context_agent:_get_conversation_history:120 - [Context_Memory_Agent] Failed to retrieve history: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:14.723 | ERROR    | agents.context_agent:_get_conversation_history:120 - [Context_Memory_Agent] Failed to retrieve history: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:14.724 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:14.724 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:14.725 | ERROR    | agents.context_agent:_get_user_info:142 - [Context_Memory_Agent] Failed to retrieve user info: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:14.725 | ERROR    | agents.context_agent:_get_user_info:142 - [Context_Memory_Agent] Failed to retrieve user info: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:14.725 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 7ms
+2026-02-09 17:42:14.725 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 7ms
+2026-02-09 17:42:14.725 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-09 17:42:14.725 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-09 17:42:14.746 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-09 17:42:14.746 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-09 17:42:14.963 | ERROR    | agents.gemini_agent:process:75 - [Gemini_AI_Agent] Generation failed: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:42:14.963 | ERROR    | agents.gemini_agent:process:75 - [Gemini_AI_Agent] Generation failed: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:42:14.964 | ERROR    | agents.base_agent:execute:71 - [Gemini_AI_Agent] Failed: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:42:14.964 | ERROR    | agents.base_agent:execute:71 - [Gemini_AI_Agent] Failed: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:42:17.733 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 3007ms
+2026-02-09 17:42:17.733 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 3007ms
+2026-02-09 17:42:18.609 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:42:18.609 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:42:19.365 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:42:19.365 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:42:19.370 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:19.370 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:19.370 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:19.370 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:19.372 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:19.372 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:19.373 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:19.373 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:52.272 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-09 17:42:52.272 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-09 17:42:52.272 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-09 17:42:52.272 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-09 17:42:52.274 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:52.274 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:52.274 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:52.274 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:42:53.354 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-09 17:42:53.354 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-09 17:42:53.355 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-09 17:42:53.355 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-09 17:42:53.355 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-1.5-pro-latest
+2026-02-09 17:42:53.355 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-1.5-pro-latest
+2026-02-09 17:42:53.355 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-09 17:42:53.355 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-09 17:42:53.402 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-09 17:42:53.402 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-09 17:42:53.427 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-09 17:42:53.427 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-09 17:42:53.446 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-09 17:42:53.446 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-09 17:42:53.446 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-09 17:42:53.446 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-09 17:42:53.446 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-09 17:42:53.446 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-09 17:43:00.258 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-09 17:43:00.258 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-09 17:43:00.258 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-09 17:43:00.258 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-09 17:43:00.260 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:00.260 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:00.260 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:00.260 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:01.150 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-09 17:43:01.150 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-09 17:43:01.151 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-09 17:43:01.151 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-09 17:43:01.151 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-1.5-pro-latest
+2026-02-09 17:43:01.151 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-1.5-pro-latest
+2026-02-09 17:43:01.152 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-09 17:43:01.152 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-09 17:43:01.197 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-09 17:43:01.197 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-09 17:43:01.221 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-09 17:43:01.221 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-09 17:43:01.240 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-09 17:43:01.240 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-09 17:43:01.240 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-09 17:43:01.240 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-09 17:43:01.240 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-09 17:43:01.240 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-09 17:43:21.144 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is dharma?...
+2026-02-09 17:43:21.144 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is dharma?...
+2026-02-09 17:43:21.145 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-09 17:43:21.145 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-09 17:43:21.145 | ERROR    | agents.base_agent:execute:71 - [RAG_Scripture_Agent] Failed: 'Settings' object has no attribute 'EMBEDDING_MODEL'
+2026-02-09 17:43:21.145 | ERROR    | agents.base_agent:execute:71 - [RAG_Scripture_Agent] Failed: 'Settings' object has no attribute 'EMBEDDING_MODEL'
+2026-02-09 17:43:21.145 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-09 17:43:21.145 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-09 17:43:21.152 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:21.152 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:21.152 | ERROR    | agents.context_agent:_get_conversation_history:120 - [Context_Memory_Agent] Failed to retrieve history: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:21.152 | ERROR    | agents.context_agent:_get_conversation_history:120 - [Context_Memory_Agent] Failed to retrieve history: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:21.152 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:21.152 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:21.153 | ERROR    | agents.context_agent:_get_user_info:142 - [Context_Memory_Agent] Failed to retrieve user info: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:21.153 | ERROR    | agents.context_agent:_get_user_info:142 - [Context_Memory_Agent] Failed to retrieve user info: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:21.153 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 7ms
+2026-02-09 17:43:21.153 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 7ms
+2026-02-09 17:43:21.153 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-09 17:43:21.153 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-09 17:43:21.173 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-09 17:43:21.173 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-09 17:43:21.324 | ERROR    | agents.gemini_agent:process:75 - [Gemini_AI_Agent] Generation failed: 404 models/gemini-1.5-pro-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:43:21.324 | ERROR    | agents.gemini_agent:process:75 - [Gemini_AI_Agent] Generation failed: 404 models/gemini-1.5-pro-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:43:21.325 | ERROR    | agents.base_agent:execute:71 - [Gemini_AI_Agent] Failed: 404 models/gemini-1.5-pro-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:43:21.325 | ERROR    | agents.base_agent:execute:71 - [Gemini_AI_Agent] Failed: 404 models/gemini-1.5-pro-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:43:22.385 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 1232ms
+2026-02-09 17:43:22.385 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 1232ms
+2026-02-09 17:43:23.265 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:43:23.265 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:43:24.163 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:43:24.163 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:43:24.168 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:24.168 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:24.169 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:24.169 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:24.171 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:24.171 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:24.171 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:43:24.171 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:04.480 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-09 17:45:04.480 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-09 17:45:04.480 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-09 17:45:04.480 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-09 17:45:04.484 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:04.484 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:04.484 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:04.484 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:05.360 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-09 17:45:05.360 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-09 17:45:05.361 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-09 17:45:05.361 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-09 17:45:05.361 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-1.5-pro
+2026-02-09 17:45:05.361 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-1.5-pro
+2026-02-09 17:45:05.361 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-09 17:45:05.361 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-09 17:45:05.409 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-09 17:45:05.409 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-09 17:45:05.433 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-09 17:45:05.433 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-09 17:45:05.453 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-09 17:45:05.453 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-09 17:45:05.453 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-09 17:45:05.453 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-09 17:45:05.453 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-09 17:45:05.453 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-09 17:45:11.461 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is dharma?...
+2026-02-09 17:45:11.461 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is dharma?...
+2026-02-09 17:45:11.462 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-09 17:45:11.462 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-09 17:45:11.462 | ERROR    | agents.base_agent:execute:71 - [RAG_Scripture_Agent] Failed: Model names should start with `models/` or `tunedModels/`, got: {name}
+2026-02-09 17:45:11.462 | ERROR    | agents.base_agent:execute:71 - [RAG_Scripture_Agent] Failed: Model names should start with `models/` or `tunedModels/`, got: {name}
+2026-02-09 17:45:11.462 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-09 17:45:11.462 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-09 17:45:11.468 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:11.468 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:11.468 | ERROR    | agents.context_agent:_get_conversation_history:120 - [Context_Memory_Agent] Failed to retrieve history: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:11.468 | ERROR    | agents.context_agent:_get_conversation_history:120 - [Context_Memory_Agent] Failed to retrieve history: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:11.469 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:11.469 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:11.469 | ERROR    | agents.context_agent:_get_user_info:142 - [Context_Memory_Agent] Failed to retrieve user info: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:11.469 | ERROR    | agents.context_agent:_get_user_info:142 - [Context_Memory_Agent] Failed to retrieve user info: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:11.469 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 7ms
+2026-02-09 17:45:11.469 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 7ms
+2026-02-09 17:45:11.469 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-09 17:45:11.469 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-09 17:45:11.489 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-09 17:45:11.489 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-09 17:45:11.679 | ERROR    | agents.gemini_agent:process:75 - [Gemini_AI_Agent] Generation failed: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:45:11.679 | ERROR    | agents.gemini_agent:process:75 - [Gemini_AI_Agent] Generation failed: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:45:11.680 | ERROR    | agents.base_agent:execute:71 - [Gemini_AI_Agent] Failed: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:45:11.680 | ERROR    | agents.base_agent:execute:71 - [Gemini_AI_Agent] Failed: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:45:12.999 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 1529ms
+2026-02-09 17:45:12.999 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 1529ms
+2026-02-09 17:45:13.467 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:45:13.467 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:45:13.806 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:45:13.806 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:45:13.812 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:13.812 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:13.813 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:13.813 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:13.815 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:13.815 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:13.816 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:13.816 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:53.278 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-09 17:45:53.278 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-09 17:45:53.279 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-09 17:45:53.279 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-09 17:45:53.282 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:53.282 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:53.282 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:53.282 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:45:54.357 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-09 17:45:54.357 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-09 17:45:54.357 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-09 17:45:54.357 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-09 17:45:54.358 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: models/gemini-1.5-pro
+2026-02-09 17:45:54.358 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: models/gemini-1.5-pro
+2026-02-09 17:45:54.358 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-09 17:45:54.358 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-09 17:45:54.406 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-09 17:45:54.406 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-09 17:45:54.430 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-09 17:45:54.430 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-09 17:45:54.450 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-09 17:45:54.450 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-09 17:45:54.451 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-09 17:45:54.451 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-09 17:45:54.451 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-09 17:45:54.451 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-09 17:46:00.181 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is dharma?...
+2026-02-09 17:46:00.181 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is dharma?...
+2026-02-09 17:46:00.181 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-09 17:46:00.181 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-09 17:46:00.367 | ERROR    | agents.base_agent:execute:71 - [RAG_Scripture_Agent] Failed: 404 models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:46:00.367 | ERROR    | agents.base_agent:execute:71 - [RAG_Scripture_Agent] Failed: 404 models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:46:00.367 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-09 17:46:00.367 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-09 17:46:00.378 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:46:00.378 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:46:00.378 | ERROR    | agents.context_agent:_get_conversation_history:120 - [Context_Memory_Agent] Failed to retrieve history: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:46:00.378 | ERROR    | agents.context_agent:_get_conversation_history:120 - [Context_Memory_Agent] Failed to retrieve history: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:46:00.379 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:46:00.379 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:46:00.380 | ERROR    | agents.context_agent:_get_user_info:142 - [Context_Memory_Agent] Failed to retrieve user info: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:46:00.380 | ERROR    | agents.context_agent:_get_user_info:142 - [Context_Memory_Agent] Failed to retrieve user info: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:46:00.380 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 12ms
+2026-02-09 17:46:00.380 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 12ms
+2026-02-09 17:46:00.380 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-09 17:46:00.380 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-09 17:46:00.411 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-09 17:46:00.411 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-09 17:46:00.542 | ERROR    | agents.gemini_agent:process:75 - [Gemini_AI_Agent] Generation failed: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:46:00.542 | ERROR    | agents.gemini_agent:process:75 - [Gemini_AI_Agent] Generation failed: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:46:00.542 | ERROR    | agents.base_agent:execute:71 - [Gemini_AI_Agent] Failed: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:46:00.542 | ERROR    | agents.base_agent:execute:71 - [Gemini_AI_Agent] Failed: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:46:02.716 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 2335ms
+2026-02-09 17:46:02.716 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 2335ms
+2026-02-09 17:46:04.128 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:46:04.128 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:46:05.000 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:46:05.000 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:46:05.002 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:46:05.002 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:46:05.002 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:46:05.002 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:46:05.003 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:46:05.003 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:46:05.004 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:46:05.004 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:09.489 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-09 17:47:09.489 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-09 17:47:09.489 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-09 17:47:09.489 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-09 17:47:09.492 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:09.492 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:09.492 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:09.492 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:10.519 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-09 17:47:10.519 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-09 17:47:10.520 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-09 17:47:10.520 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-09 17:47:10.520 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-09 17:47:10.520 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-09 17:47:10.520 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-09 17:47:10.520 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-09 17:47:10.592 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-09 17:47:10.592 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-09 17:47:10.611 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-09 17:47:10.611 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-09 17:47:10.628 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-09 17:47:10.628 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-09 17:47:10.628 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-09 17:47:10.628 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-09 17:47:10.628 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-09 17:47:10.628 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-09 17:47:15.343 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is dharma?...
+2026-02-09 17:47:15.343 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is dharma?...
+2026-02-09 17:47:15.343 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-09 17:47:15.343 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-09 17:47:15.344 | ERROR    | agents.base_agent:execute:71 - [RAG_Scripture_Agent] Failed: Model names should start with `models/` or `tunedModels/`, got: {name}
+2026-02-09 17:47:15.344 | ERROR    | agents.base_agent:execute:71 - [RAG_Scripture_Agent] Failed: Model names should start with `models/` or `tunedModels/`, got: {name}
+2026-02-09 17:47:15.344 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-09 17:47:15.344 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-09 17:47:15.349 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:15.349 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:15.349 | ERROR    | agents.context_agent:_get_conversation_history:120 - [Context_Memory_Agent] Failed to retrieve history: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:15.349 | ERROR    | agents.context_agent:_get_conversation_history:120 - [Context_Memory_Agent] Failed to retrieve history: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:15.350 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:15.350 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:15.350 | ERROR    | agents.context_agent:_get_user_info:142 - [Context_Memory_Agent] Failed to retrieve user info: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:15.350 | ERROR    | agents.context_agent:_get_user_info:142 - [Context_Memory_Agent] Failed to retrieve user info: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:15.350 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 6ms
+2026-02-09 17:47:15.350 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 6ms
+2026-02-09 17:47:15.350 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-09 17:47:15.350 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-09 17:47:15.370 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-09 17:47:15.370 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-09 17:47:21.930 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 6560ms
+2026-02-09 17:47:21.930 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 6560ms
+2026-02-09 17:47:22.947 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 7596ms
+2026-02-09 17:47:22.947 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 7596ms
+2026-02-09 17:47:23.779 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:47:23.779 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:47:24.575 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:47:24.575 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:47:24.581 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:24.581 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:24.581 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:24.581 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:24.583 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:24.583 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:24.583 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:47:24.583 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:18.052 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-09 17:50:18.052 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-09 17:50:18.052 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-09 17:50:18.052 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-09 17:50:18.055 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:18.055 | ERROR    | utils.database:init_db:35 - Failed to initialize database: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:18.055 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:18.055 | ERROR    | main:startup_event:75 - Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:19.067 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-09 17:50:19.067 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-09 17:50:19.067 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-09 17:50:19.067 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-09 17:50:19.067 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-09 17:50:19.067 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-09 17:50:19.068 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-09 17:50:19.068 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-09 17:50:19.116 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-09 17:50:19.116 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-09 17:50:19.141 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-09 17:50:19.141 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-09 17:50:19.160 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-09 17:50:19.160 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-09 17:50:19.160 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-09 17:50:19.160 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-09 17:50:19.160 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-09 17:50:19.160 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-09 17:50:23.956 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is dharma?...
+2026-02-09 17:50:23.956 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is dharma?...
+2026-02-09 17:50:23.957 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-09 17:50:23.957 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-09 17:50:24.532 | ERROR    | agents.base_agent:execute:71 - [RAG_Scripture_Agent] Failed: 404 models/embedding-001 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:50:24.532 | ERROR    | agents.base_agent:execute:71 - [RAG_Scripture_Agent] Failed: 404 models/embedding-001 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-09 17:50:24.533 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-09 17:50:24.533 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-09 17:50:24.550 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:24.550 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:24.550 | ERROR    | agents.context_agent:_get_conversation_history:120 - [Context_Memory_Agent] Failed to retrieve history: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:24.550 | ERROR    | agents.context_agent:_get_conversation_history:120 - [Context_Memory_Agent] Failed to retrieve history: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:24.552 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:24.552 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:24.552 | ERROR    | agents.context_agent:_get_user_info:142 - [Context_Memory_Agent] Failed to retrieve user info: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:24.552 | ERROR    | agents.context_agent:_get_user_info:142 - [Context_Memory_Agent] Failed to retrieve user info: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:24.552 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 18ms
+2026-02-09 17:50:24.552 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 18ms
+2026-02-09 17:50:24.552 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-09 17:50:24.552 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-09 17:50:24.589 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-09 17:50:24.589 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-09 17:50:30.936 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 6346ms
+2026-02-09 17:50:30.936 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 6346ms
+2026-02-09 17:50:32.019 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 7466ms
+2026-02-09 17:50:32.019 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 7466ms
+2026-02-09 17:50:32.387 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:50:32.387 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:50:33.142 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:50:33.142 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-09 17:50:33.147 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:33.147 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:33.148 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:33.148 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:33.150 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:33.150 | ERROR    | utils.database:get_db:61 - Database error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:33.150 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-09 17:50:33.150 | ERROR    | agents.context_agent:save_message:232 - [Context_Memory_Agent] Failed to save message: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-10 13:00:54.852 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-10 13:00:54.853 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-10 13:00:54.866 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-10 13:00:54.866 | SUCCESS  | main:startup_event:73 - Database initialized
+2026-02-10 13:00:56.077 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-10 13:00:56.077 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-10 13:00:56.077 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-10 13:00:56.077 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-10 13:00:56.121 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-10 13:00:56.145 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-10 13:00:56.163 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-10 13:00:56.164 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-10 13:00:56.164 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-10 13:01:05.450 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: Who is Krishna?...
+2026-02-10 13:01:05.450 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-10 13:01:05.826 | ERROR    | agents.base_agent:execute:71 - [RAG_Scripture_Agent] Failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/embed_content_free_tier_requests, limit: 1000, model: gemini-embedding-1.0
+Please retry in 54.1675695s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/embed_content_free_tier_requests"
+  quota_id: "EmbedContentRequestsPerDayPerUserPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-embedding-1.0"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000
+}
+, retry_delay {
+  seconds: 54
+}
+]
+2026-02-10 13:01:05.827 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-10 13:01:05.848 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 21ms
+2026-02-10 13:01:05.849 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-10 13:01:05.882 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-10 13:01:12.217 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 6334ms
+2026-02-10 13:01:14.143 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 8293ms
+2026-02-10 13:01:14.985 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-10 13:01:15.603 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-10 13:01:15.625 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for test_user_1
+2026-02-10 13:01:15.630 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for test_user_1
+2026-02-10 13:01:39.453 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-10 13:01:39.453 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-10 13:01:39.457 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-10 13:01:39.458 | SUCCESS  | main:startup_event:73 - Database initialized
+2026-02-10 13:01:40.859 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-10 13:01:40.860 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-10 13:01:40.860 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-10 13:01:40.860 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-10 13:01:40.892 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-10 13:01:40.912 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-10 13:01:40.928 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-10 13:01:40.928 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-10 13:01:40.928 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-10 13:03:32.185 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-10 13:03:32.186 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-10 13:03:32.193 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-10 13:03:32.193 | SUCCESS  | main:startup_event:73 - Database initialized
+2026-02-10 13:03:33.216 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-10 13:03:33.220 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-10 13:03:33.221 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-10 13:03:33.221 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-10 13:03:33.251 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-10 13:03:33.274 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-10 13:03:33.301 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-10 13:03:33.301 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-10 13:03:33.301 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-10 13:07:48.669 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-10 13:07:48.670 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-10 13:07:48.674 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-10 13:07:48.674 | SUCCESS  | main:startup_event:73 - Database initialized
+2026-02-10 13:07:49.784 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-10 13:07:49.785 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-10 13:07:49.786 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-10 13:07:49.786 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-10 13:07:49.828 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-10 13:07:49.851 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-10 13:07:49.869 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-10 13:07:49.869 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-10 13:07:49.869 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-10 13:08:02.560 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-10 13:08:02.560 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-10 13:08:02.562 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-10 13:08:02.563 | SUCCESS  | main:startup_event:73 - Database initialized
+2026-02-10 13:08:04.033 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-10 13:08:04.034 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-10 13:08:04.034 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-10 13:08:04.034 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-10 13:08:04.065 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-10 13:08:04.088 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-10 13:08:04.108 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-10 13:08:04.109 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-10 13:08:04.109 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-10 13:08:10.603 | INFO     | main:startup_event:68 - Starting WhatsApp Hindu Agent...
+2026-02-10 13:08:10.603 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-10 13:08:10.605 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-10 13:08:10.605 | SUCCESS  | main:startup_event:73 - Database initialized
+2026-02-10 13:08:11.388 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-10 13:08:11.389 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-10 13:08:11.389 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-10 13:08:11.389 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-10 13:08:11.413 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-10 13:08:11.432 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-10 13:08:11.449 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-10 13:08:11.449 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-10 13:08:11.450 | SUCCESS  | main:startup_event:84 - All services initialized successfully
+2026-02-10 13:08:33.642 | INFO     | main:startup_event:71 - Starting WhatsApp Hindu Agent...
+2026-02-10 13:08:33.643 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-10 13:08:33.644 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-10 13:08:33.644 | SUCCESS  | main:startup_event:76 - Database initialized
+2026-02-10 13:08:34.697 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-10 13:08:34.698 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-10 13:08:34.698 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-10 13:08:34.698 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-10 13:08:34.741 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-10 13:08:34.763 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-10 13:08:34.781 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-10 13:08:34.781 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-10 13:08:34.781 | INFO     | services.twilio_service:__init__:23 - [TwilioService] Initialized
+2026-02-10 13:08:34.781 | SUCCESS  | main:startup_event:88 - All services initialized successfully
+2026-02-10 13:08:48.692 | INFO     | main:startup_event:71 - Starting WhatsApp Hindu Agent...
+2026-02-10 13:08:48.693 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-10 13:08:48.694 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-10 13:08:48.694 | SUCCESS  | main:startup_event:76 - Database initialized
+2026-02-10 13:08:49.859 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-10 13:08:49.859 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-10 13:08:49.860 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-10 13:08:49.860 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-10 13:08:49.898 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-10 13:08:49.918 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-10 13:08:49.935 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-10 13:08:49.935 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-10 13:08:49.936 | INFO     | services.twilio_service:__init__:23 - [TwilioService] Initialized
+2026-02-10 13:08:49.936 | SUCCESS  | main:startup_event:88 - All services initialized successfully
+2026-02-10 13:09:07.276 | INFO     | main:startup_event:71 - Starting WhatsApp Hindu Agent...
+2026-02-10 13:09:07.277 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-10 13:09:07.278 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-10 13:09:07.278 | SUCCESS  | main:startup_event:76 - Database initialized
+2026-02-10 13:09:08.317 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-10 13:09:08.318 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-10 13:09:08.318 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-10 13:09:08.318 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-10 13:09:08.363 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-10 13:09:08.386 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-10 13:09:08.404 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-10 13:09:08.404 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-10 13:09:08.404 | INFO     | services.twilio_service:__init__:23 - [TwilioService] Initialized
+2026-02-10 13:09:08.404 | SUCCESS  | main:startup_event:88 - All services initialized successfully
+2026-02-10 13:52:19.369 | INFO     | main:twilio_webhook:134 - Received Twilio message from whatsapp:+917305385594: Hari Om
+2026-02-10 13:52:19.374 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: Hari Om...
+2026-02-10 13:52:19.374 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-10 13:52:20.789 | SUCCESS  | agents.base_agent:execute:53 - [RAG_Scripture_Agent] Completed in 1414ms
+2026-02-10 13:52:20.790 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-10 13:52:20.832 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 42ms
+2026-02-10 13:52:20.832 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-10 13:52:20.860 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-10 13:52:22.478 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 1618ms
+2026-02-10 13:52:23.744 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 2911ms
+2026-02-10 13:52:24.581 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-10 13:52:25.351 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-10 13:52:25.375 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-10 13:52:25.381 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-10 13:52:25.705 | ERROR    | services.twilio_service:send_message:58 - [TwilioService] Failed to send message: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC.../Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/403[0m
+
+
+2026-02-10 14:01:01.568 | INFO     | main:startup_event:71 - Starting WhatsApp Hindu Agent...
+2026-02-10 14:01:01.568 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-10 14:01:01.574 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-10 14:01:01.574 | SUCCESS  | main:startup_event:76 - Database initialized
+2026-02-10 14:01:03.575 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-10 14:01:03.575 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-10 14:01:03.575 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-10 14:01:03.575 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-10 14:01:03.635 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-10 14:01:03.658 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-10 14:01:03.685 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-10 14:01:03.685 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-10 14:01:03.686 | INFO     | services.twilio_service:__init__:23 - [TwilioService] Initialized
+2026-02-10 14:01:03.686 | SUCCESS  | main:startup_event:88 - All services initialized successfully
+2026-02-10 14:01:16.078 | INFO     | main:startup_event:71 - Starting WhatsApp Hindu Agent...
+2026-02-10 14:01:16.078 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-10 14:01:16.080 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-10 14:01:16.080 | SUCCESS  | main:startup_event:76 - Database initialized
+2026-02-10 14:01:17.012 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-10 14:01:17.012 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-10 14:01:17.012 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-10 14:01:17.012 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-10 14:01:17.035 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-10 14:01:17.053 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-10 14:01:17.069 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-10 14:01:17.069 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-10 14:01:17.069 | INFO     | services.twilio_service:__init__:23 - [TwilioService] Initialized
+2026-02-10 14:01:17.070 | SUCCESS  | main:startup_event:88 - All services initialized successfully
+2026-02-10 14:03:07.108 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: Who is Krishna?...
+2026-02-10 14:03:07.109 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-10 14:03:08.516 | SUCCESS  | agents.base_agent:execute:53 - [RAG_Scripture_Agent] Completed in 1406ms
+2026-02-10 14:03:08.517 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-10 14:03:08.543 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 26ms
+2026-02-10 14:03:08.543 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-10 14:03:08.593 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-10 14:03:14.604 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 6009ms
+2026-02-10 14:03:15.924 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 7380ms
+2026-02-10 14:03:16.736 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-10 14:03:17.429 | ERROR    | agents.orchestrator:_generate_conversational_response:290 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-10 14:03:17.444 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for test_cli_123
+2026-02-10 14:03:17.449 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for test_cli_123
+2026-02-10 14:03:54.273 | INFO     | main:startup_event:71 - Starting WhatsApp Hindu Agent...
+2026-02-10 14:03:54.273 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-10 14:03:54.275 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-10 14:03:54.275 | SUCCESS  | main:startup_event:76 - Database initialized
+2026-02-10 14:03:56.324 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-10 14:03:56.326 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-10 14:03:56.326 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-10 14:03:56.326 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-10 14:03:56.349 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-10 14:03:56.367 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-10 14:03:56.385 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-10 14:03:56.386 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-10 14:03:56.386 | INFO     | services.twilio_service:__init__:23 - [TwilioService] Initialized
+2026-02-10 14:03:56.386 | SUCCESS  | main:startup_event:88 - All services initialized successfully
+2026-02-10 14:04:00.287 | INFO     | main:startup_event:71 - Starting WhatsApp Hindu Agent...
+2026-02-10 14:04:00.287 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-10 14:04:00.288 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-10 14:04:00.288 | SUCCESS  | main:startup_event:76 - Database initialized
+2026-02-10 14:04:01.164 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-10 14:04:01.164 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-10 14:04:01.164 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-10 14:04:01.164 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-10 14:04:01.186 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-10 14:04:01.208 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-10 14:04:01.226 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-10 14:04:01.227 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-10 14:04:01.227 | INFO     | services.twilio_service:__init__:23 - [TwilioService] Initialized
+2026-02-10 14:04:01.227 | SUCCESS  | main:startup_event:88 - All services initialized successfully
+2026-02-10 14:07:01.554 | INFO     | main:twilio_webhook:134 - Received Twilio message from whatsapp:+917305385594: Who is krishna?
+2026-02-10 14:07:01.558 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: Who is krishna?...
+2026-02-10 14:07:01.558 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-10 14:07:02.571 | SUCCESS  | agents.base_agent:execute:53 - [RAG_Scripture_Agent] Completed in 1012ms
+2026-02-10 14:07:02.572 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-10 14:07:02.601 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 29ms
+2026-02-10 14:07:02.601 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-10 14:07:02.624 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-10 14:07:08.635 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 6010ms
+2026-02-10 14:07:09.845 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 7243ms
+2026-02-10 14:07:10.282 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-10 14:07:10.635 | ERROR    | agents.orchestrator:_generate_conversational_response:292 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-10 14:07:10.647 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-10 14:07:10.649 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-10 14:07:11.349 | INFO     | services.twilio_service:send_message:54 - [TwilioService] Sent message to whatsapp:+917305385594
+2026-02-11 07:15:57.666 | INFO     | main:startup_event:71 - Starting WhatsApp Hindu Agent...
+2026-02-11 07:15:57.666 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-11 07:15:57.670 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-11 07:15:57.671 | SUCCESS  | main:startup_event:76 - Database initialized
+2026-02-11 07:15:58.843 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-11 07:15:58.843 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-11 07:15:58.843 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-11 07:15:58.843 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-11 07:15:58.870 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-11 07:15:58.891 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-11 07:15:58.910 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-11 07:15:58.910 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-11 07:15:58.910 | INFO     | services.twilio_service:__init__:23 - [TwilioService] Initialized
+2026-02-11 07:15:58.910 | SUCCESS  | main:startup_event:88 - All services initialized successfully
+2026-02-11 07:22:12.557 | INFO     | main:twilio_webhook:134 - Received Twilio message from whatsapp:+917305385594: Hari Om
+2026-02-11 07:22:12.561 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: Hari Om...
+2026-02-11 07:22:12.562 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-11 07:22:13.974 | SUCCESS  | agents.base_agent:execute:53 - [RAG_Scripture_Agent] Completed in 1411ms
+2026-02-11 07:22:13.974 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-11 07:22:14.000 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 25ms
+2026-02-11 07:22:14.000 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-11 07:22:14.022 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-11 07:22:16.126 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 2104ms
+2026-02-11 07:22:17.357 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 3357ms
+2026-02-11 07:22:18.385 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 07:22:19.543 | ERROR    | agents.orchestrator:_generate_conversational_response:292 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 07:22:19.554 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 07:22:19.557 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 07:22:20.020 | INFO     | services.twilio_service:send_message:54 - [TwilioService] Sent message to whatsapp:+917305385594
+2026-02-11 07:22:47.833 | INFO     | main:twilio_webhook:134 - Received Twilio message from whatsapp:+917305385594: I’m just having some questions on Hindu mythology? Can you help me out please?
+2026-02-11 07:22:47.834 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: I’m just having some questions on Hindu mythology?...
+2026-02-11 07:22:47.834 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-11 07:22:48.504 | SUCCESS  | agents.base_agent:execute:53 - [RAG_Scripture_Agent] Completed in 669ms
+2026-02-11 07:22:48.504 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-11 07:22:48.513 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 8ms
+2026-02-11 07:22:48.513 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-11 07:22:48.549 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-11 07:22:52.916 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 4366ms
+2026-02-11 07:22:54.305 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 5792ms
+2026-02-11 07:22:55.046 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 07:22:55.335 | ERROR    | agents.orchestrator:_generate_conversational_response:292 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 07:22:55.348 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 07:22:55.354 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 07:22:56.105 | INFO     | services.twilio_service:send_message:54 - [TwilioService] Sent message to whatsapp:+917305385594
+2026-02-11 07:24:26.020 | INFO     | main:twilio_webhook:134 - Received Twilio message from whatsapp:+917305385594: Pranava mantram
+2026-02-11 07:24:26.023 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: Pranava mantram...
+2026-02-11 07:24:26.023 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-11 07:24:26.771 | SUCCESS  | agents.base_agent:execute:53 - [RAG_Scripture_Agent] Completed in 747ms
+2026-02-11 07:24:26.772 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-11 07:24:26.780 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 8ms
+2026-02-11 07:24:26.780 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-11 07:24:26.818 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-11 07:24:33.437 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 6619ms
+2026-02-11 07:24:35.226 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 8446ms
+2026-02-11 07:24:37.130 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 07:24:37.439 | ERROR    | agents.orchestrator:_generate_conversational_response:292 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 07:24:37.452 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 07:24:37.458 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 07:24:37.846 | ERROR    | services.twilio_service:send_message:58 - [TwilioService] Failed to send message: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACbe4612e1968ca3ac4d3aff48ba6eafb1/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The concatenated message body exceeds the 1600 character limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/21617[0m
+
+
+2026-02-11 07:26:45.136 | INFO     | main:twilio_webhook:134 - Received Twilio message from whatsapp:+917305385594: Who is Krishna
+2026-02-11 07:26:45.142 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: Who is Krishna...
+2026-02-11 07:26:45.143 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-11 07:26:45.881 | SUCCESS  | agents.base_agent:execute:53 - [RAG_Scripture_Agent] Completed in 738ms
+2026-02-11 07:26:45.882 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-11 07:26:45.896 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 13ms
+2026-02-11 07:26:45.896 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-11 07:26:45.933 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-11 07:26:52.523 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 6589ms
+2026-02-11 07:26:53.770 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 7873ms
+2026-02-11 07:26:54.132 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 07:26:54.889 | ERROR    | agents.orchestrator:_generate_conversational_response:292 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 07:26:54.901 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 07:26:54.905 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 07:26:55.210 | ERROR    | services.twilio_service:send_message:58 - [TwilioService] Failed to send message: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACbe4612e1968ca3ac4d3aff48ba6eafb1/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The concatenated message body exceeds the 1600 character limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/21617[0m
+
+
+2026-02-11 09:05:56.516 | INFO     | main:startup_event:71 - Starting WhatsApp Hindu Agent...
+2026-02-11 09:05:56.516 | INFO     | main:startup_event:71 - Starting WhatsApp Hindu Agent...
+2026-02-11 09:05:56.516 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-11 09:05:56.516 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-11 09:05:56.519 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-11 09:05:56.519 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-11 09:05:56.520 | SUCCESS  | main:startup_event:76 - Database initialized
+2026-02-11 09:05:56.520 | SUCCESS  | main:startup_event:76 - Database initialized
+2026-02-11 09:05:57.713 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-11 09:05:57.713 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-11 09:05:57.713 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-11 09:05:57.713 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-11 09:05:57.713 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-11 09:05:57.713 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-11 09:05:57.714 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-11 09:05:57.714 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-11 09:05:57.743 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-11 09:05:57.743 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-11 09:05:57.761 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-11 09:05:57.761 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-11 09:05:57.777 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-11 09:05:57.777 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-11 09:05:57.777 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-11 09:05:57.777 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-11 09:05:57.777 | INFO     | services.twilio_service:__init__:23 - [TwilioService] Initialized
+2026-02-11 09:05:57.777 | INFO     | services.twilio_service:__init__:23 - [TwilioService] Initialized
+2026-02-11 09:05:57.777 | SUCCESS  | main:startup_event:88 - All services initialized successfully
+2026-02-11 09:05:57.777 | SUCCESS  | main:startup_event:88 - All services initialized successfully
+2026-02-11 09:08:18.881 | INFO     | main:twilio_webhook:134 - Received Twilio message from whatsapp:+917305385594: Hari Om
+2026-02-11 09:08:18.881 | INFO     | main:twilio_webhook:134 - Received Twilio message from whatsapp:+917305385594: Hari Om
+2026-02-11 09:08:18.885 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: Hari Om...
+2026-02-11 09:08:18.885 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: Hari Om...
+2026-02-11 09:08:18.885 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-11 09:08:18.885 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-11 09:08:20.399 | SUCCESS  | agents.base_agent:execute:53 - [RAG_Scripture_Agent] Completed in 1513ms
+2026-02-11 09:08:20.399 | SUCCESS  | agents.base_agent:execute:53 - [RAG_Scripture_Agent] Completed in 1513ms
+2026-02-11 09:08:20.400 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-11 09:08:20.400 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-11 09:08:20.437 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 36ms
+2026-02-11 09:08:20.437 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 36ms
+2026-02-11 09:08:20.437 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-11 09:08:20.437 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-11 09:08:20.466 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-11 09:08:20.466 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-11 09:08:23.345 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 2878ms
+2026-02-11 09:08:23.345 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 2878ms
+2026-02-11 09:08:25.151 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 4714ms
+2026-02-11 09:08:25.151 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 4714ms
+2026-02-11 09:08:25.989 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 09:08:25.989 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 09:08:26.442 | ERROR    | agents.orchestrator:_generate_conversational_response:292 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 09:08:26.442 | ERROR    | agents.orchestrator:_generate_conversational_response:292 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 09:08:26.470 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 09:08:26.470 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 09:08:26.475 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 09:08:26.475 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 09:08:26.954 | INFO     | services.twilio_service:send_message:54 - [TwilioService] Sent message to whatsapp:+917305385594
+2026-02-11 09:08:26.954 | INFO     | services.twilio_service:send_message:54 - [TwilioService] Sent message to whatsapp:+917305385594
+2026-02-11 09:08:44.922 | INFO     | main:twilio_webhook:134 - Received Twilio message from whatsapp:+917305385594: What is Pranava Mantram?
+2026-02-11 09:08:44.922 | INFO     | main:twilio_webhook:134 - Received Twilio message from whatsapp:+917305385594: What is Pranava Mantram?
+2026-02-11 09:08:44.923 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is Pranava Mantram?...
+2026-02-11 09:08:44.923 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is Pranava Mantram?...
+2026-02-11 09:08:44.923 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-11 09:08:44.923 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-11 09:08:45.615 | SUCCESS  | agents.base_agent:execute:53 - [RAG_Scripture_Agent] Completed in 691ms
+2026-02-11 09:08:45.615 | SUCCESS  | agents.base_agent:execute:53 - [RAG_Scripture_Agent] Completed in 691ms
+2026-02-11 09:08:45.616 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-11 09:08:45.616 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-11 09:08:45.623 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 7ms
+2026-02-11 09:08:45.623 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 7ms
+2026-02-11 09:08:45.624 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-11 09:08:45.624 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-11 09:08:45.661 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-11 09:08:45.661 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-11 09:08:52.415 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 6754ms
+2026-02-11 09:08:52.415 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 6754ms
+2026-02-11 09:08:53.644 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 8019ms
+2026-02-11 09:08:53.644 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 8019ms
+2026-02-11 09:08:54.012 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 09:08:54.012 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 09:08:54.894 | ERROR    | agents.orchestrator:_generate_conversational_response:292 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 09:08:54.894 | ERROR    | agents.orchestrator:_generate_conversational_response:292 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 09:08:54.904 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 09:08:54.904 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 09:08:54.910 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 09:08:54.910 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 09:08:55.241 | ERROR    | services.twilio_service:send_message:58 - [TwilioService] Failed to send message: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACbe4612e1968ca3ac4d3aff48ba6eafb1/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The concatenated message body exceeds the 1600 character limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/21617[0m
+
+
+2026-02-11 09:08:55.241 | ERROR    | services.twilio_service:send_message:58 - [TwilioService] Failed to send message: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACbe4612e1968ca3ac4d3aff48ba6eafb1/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: The concatenated message body exceeds the 1600 character limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/21617[0m
+
+
+2026-02-11 09:11:15.042 | INFO     | main:startup_event:71 - Starting WhatsApp Hindu Agent...
+2026-02-11 09:11:15.042 | INFO     | main:startup_event:71 - Starting WhatsApp Hindu Agent...
+2026-02-11 09:11:15.043 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-11 09:11:15.043 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-11 09:11:15.059 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-11 09:11:15.059 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-11 09:11:15.060 | SUCCESS  | main:startup_event:76 - Database initialized
+2026-02-11 09:11:15.060 | SUCCESS  | main:startup_event:76 - Database initialized
+2026-02-11 09:11:16.370 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-11 09:11:16.370 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-11 09:11:16.372 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-11 09:11:16.372 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-11 09:11:16.372 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-11 09:11:16.372 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-11 09:11:16.373 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-11 09:11:16.373 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-11 09:11:16.473 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-11 09:11:16.473 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-11 09:11:16.556 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-11 09:11:16.556 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-11 09:11:16.659 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-11 09:11:16.659 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-11 09:11:16.660 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-11 09:11:16.660 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-11 09:11:16.661 | INFO     | services.twilio_service:__init__:23 - [TwilioService] Initialized
+2026-02-11 09:11:16.661 | INFO     | services.twilio_service:__init__:23 - [TwilioService] Initialized
+2026-02-11 09:11:16.662 | SUCCESS  | main:startup_event:88 - All services initialized successfully
+2026-02-11 09:11:16.662 | SUCCESS  | main:startup_event:88 - All services initialized successfully
+2026-02-11 09:11:32.957 | INFO     | main:startup_event:71 - Starting WhatsApp Hindu Agent...
+2026-02-11 09:11:32.957 | INFO     | main:startup_event:71 - Starting WhatsApp Hindu Agent...
+2026-02-11 09:11:32.957 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-11 09:11:32.957 | INFO     | utils.database:init_db:31 - Initializing database...
+2026-02-11 09:11:32.959 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-11 09:11:32.959 | SUCCESS  | utils.database:init_db:33 - Database initialized successfully
+2026-02-11 09:11:32.959 | SUCCESS  | main:startup_event:76 - Database initialized
+2026-02-11 09:11:32.959 | SUCCESS  | main:startup_event:76 - Database initialized
+2026-02-11 09:11:33.869 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-11 09:11:33.869 | INFO     | agents.rag_agent:__init__:32 - [RAG_Scripture_Agent] Initialized with Pinecone index: hindu-scriptures
+2026-02-11 09:11:33.869 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-11 09:11:33.869 | INFO     | agents.web_search_agent:__init__:27 - [Web_Search_Agent] Initialized with Serper API
+2026-02-11 09:11:33.869 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-11 09:11:33.869 | INFO     | agents.gemini_agent:__init__:36 - [Gemini_AI_Agent] Initialized with model: gemini-2.5-flash
+2026-02-11 09:11:33.869 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-11 09:11:33.869 | INFO     | agents.context_agent:__init__:23 - [Context_Memory_Agent] Initialized
+2026-02-11 09:11:33.890 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-11 09:11:33.890 | INFO     | agents.orchestrator:__init__:43 - [Orchestrator] Multi-agent system initialized
+2026-02-11 09:11:33.906 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-11 09:11:33.906 | INFO     | services.image_service:__init__:19 - [ImageProcessor] Initialized with model: gpt-4-vision-preview
+2026-02-11 09:11:33.921 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-11 09:11:33.921 | INFO     | services.voice_service:__init__:20 - [VoiceProcessor] Initialized with model: whisper-1
+2026-02-11 09:11:33.921 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-11 09:11:33.921 | INFO     | services.manychat_service:__init__:22 - [ManyChatService] Initialized
+2026-02-11 09:11:33.921 | INFO     | services.twilio_service:__init__:23 - [TwilioService] Initialized
+2026-02-11 09:11:33.921 | INFO     | services.twilio_service:__init__:23 - [TwilioService] Initialized
+2026-02-11 09:11:33.921 | SUCCESS  | main:startup_event:88 - All services initialized successfully
+2026-02-11 09:11:33.921 | SUCCESS  | main:startup_event:88 - All services initialized successfully
+2026-02-11 09:12:35.017 | INFO     | main:twilio_webhook:134 - Received Twilio message from whatsapp:+917305385594: What is Pranava Mantram?
+2026-02-11 09:12:35.017 | INFO     | main:twilio_webhook:134 - Received Twilio message from whatsapp:+917305385594: What is Pranava Mantram?
+2026-02-11 09:12:35.018 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is Pranava Mantram?...
+2026-02-11 09:12:35.018 | INFO     | agents.orchestrator:process_query:75 - [Orchestrator] Processing query: What is Pranava Mantram?...
+2026-02-11 09:12:35.018 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-11 09:12:35.018 | INFO     | agents.base_agent:execute:47 - [RAG_Scripture_Agent] Starting processing...
+2026-02-11 09:12:36.236 | SUCCESS  | agents.base_agent:execute:53 - [RAG_Scripture_Agent] Completed in 1217ms
+2026-02-11 09:12:36.236 | SUCCESS  | agents.base_agent:execute:53 - [RAG_Scripture_Agent] Completed in 1217ms
+2026-02-11 09:12:36.237 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-11 09:12:36.237 | INFO     | agents.base_agent:execute:47 - [Context_Memory_Agent] Starting processing...
+2026-02-11 09:12:36.260 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 23ms
+2026-02-11 09:12:36.260 | SUCCESS  | agents.base_agent:execute:53 - [Context_Memory_Agent] Completed in 23ms
+2026-02-11 09:12:36.261 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-11 09:12:36.261 | INFO     | agents.base_agent:execute:47 - [Web_Search_Agent] Starting processing...
+2026-02-11 09:12:36.291 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-11 09:12:36.291 | INFO     | agents.base_agent:execute:47 - [Gemini_AI_Agent] Starting processing...
+2026-02-11 09:12:42.745 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 6453ms
+2026-02-11 09:12:42.745 | SUCCESS  | agents.base_agent:execute:53 - [Gemini_AI_Agent] Completed in 6453ms
+2026-02-11 09:12:44.431 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 8170ms
+2026-02-11 09:12:44.431 | SUCCESS  | agents.base_agent:execute:53 - [Web_Search_Agent] Completed in 8170ms
+2026-02-11 09:12:45.031 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 09:12:45.031 | ERROR    | agents.orchestrator:_verify_responses:230 - [Orchestrator] Verification failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 09:12:45.324 | ERROR    | agents.orchestrator:_generate_conversational_response:292 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 09:12:45.324 | ERROR    | agents.orchestrator:_generate_conversational_response:292 - [Orchestrator] Conversational generation failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2026-02-11 09:12:45.345 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 09:12:45.345 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 09:12:45.350 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 09:12:45.350 | INFO     | agents.context_agent:save_message:228 - [Context_Memory_Agent] Saved message for +917305385594
+2026-02-11 09:12:45.901 | INFO     | services.twilio_service:send_message:54 - [TwilioService] Sent message to whatsapp:+917305385594
+2026-02-11 09:12:45.901 | INFO     | services.twilio_service:send_message:54 - [TwilioService] Sent message to whatsapp:+917305385594
+2026-02-11 09:12:46.769 | INFO     | services.twilio_service:send_message:54 - [TwilioService] Sent message to whatsapp:+917305385594
+2026-02-11 09:12:46.769 | INFO     | services.twilio_service:send_message:54 - [TwilioService] Sent message to whatsapp:+917305385594
