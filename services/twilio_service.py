@@ -91,7 +91,7 @@ class TwilioService:
     async def send_messages(self, to_number: str, messages: List[str]) -> bool:
         """
         Send multiple messages sequentially.
-        Handles splitting of long messages.
+        Handles splitting of long messages and adds human-like delays.
         """
         # Flatten and split all messages
         final_messages = []
@@ -99,9 +99,19 @@ class TwilioService:
             final_messages.extend(self._split_message(msg))
             
         for msg in final_messages:
+            # Calculate a human-like typing delay
+            # Average typing speed is about 200-300 characters per minute
+            # Let's say 5 characters per second + some base reaction time
+            typing_delay = min(len(msg) * 0.05, 3.0) # max 3 seconds delay
+            if typing_delay > 0.5:
+                logger.info(f"[TwilioService] Simulating typing for {typing_delay:.2f}s...")
+                await asyncio.sleep(typing_delay)
+            
             success = await self.send_message(to_number, msg)
             if not success:
                 return False
-            # Small delay between messages to ensure order
-            await asyncio.sleep(0.5)
+            
+            # Small fixed delay after sending to ensure order and readability
+            await asyncio.sleep(0.8)
+            
         return True
