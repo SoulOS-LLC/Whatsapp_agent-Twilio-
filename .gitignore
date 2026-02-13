@@ -1,0 +1,8 @@
+.env
+*.pyc
+__pycache__/
+venv/
+.DS_Store
+.vscode/
+.trae/
+scripts/test_twilio_keys.py

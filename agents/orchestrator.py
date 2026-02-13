@@ -163,16 +163,9 @@ class MultiAgentOrchestrator:
         agent_responses: List[Dict[str, Any]]
     ) -> str:
         """
-        Use verification agent to cross-check and synthesize responses.
-        
-        Args:
-            query: Original user query
-            agent_responses: Responses from all agents
-            
-        Returns:
-            Verified, synthesized answer
+        Use Gemini to cross-check and synthesize responses.
+        Falls back to Gemini response directly if verification fails.
         """
-                                         
         rag_response = ""
         web_response = ""
         gemini_response = ""
@@ -194,7 +187,7 @@ class MultiAgentOrchestrator:
             elif "Context" in agent_name:
                 context_response = content
         
-                                   
+        # Use Gemini for verification to avoid OpenAI quota issues
         verification_prompt = self.verification_prompt.format(
             user_question=query,
             rag_response=rag_response or "No scripture database results",
@@ -204,93 +197,59 @@ class MultiAgentOrchestrator:
         )
         
         try:
-                                          
-            response = await self.openai_client.chat.completions.create(
-                model="gpt-4-turbo-preview",
-                messages=[
-                    {
-                        "role": "system",
-                        "content": "You are a verification agent that synthesizes and validates information from multiple sources."
-                    },
-                    {
-                        "role": "user",
-                        "content": verification_prompt
-                    }
-                ],
-                temperature=0.3,                                  
-                max_tokens=1024
+            # Use the already initialized gemini_agent's model
+            response = self.gemini_agent.model.generate_content(
+                f"SYSTEM: You are a verification agent that synthesizes and validates information from multiple sources.\n\n{verification_prompt}"
             )
             
-            verified_answer = response.choices[0].message.content.strip()
-            logger.info("[Orchestrator] Verification complete")
-            
-            return verified_answer
-            
+            if response and response.text:
+                verified_answer = response.text.strip()
+                logger.info("[Orchestrator] Verification complete (via Gemini)")
+                return verified_answer
+            else:
+                raise ValueError("Empty response from Gemini verification")
+                
         except Exception as e:
-            logger.error(f"[Orchestrator] Verification failed: {e}")
-                                                                                           
-            if rag_response and "No relevant scripture" not in rag_response:
-                return rag_response
-            elif gemini_response:
+            logger.error(f"[Orchestrator] Verification failed (Gemini): {e}")
+            # Fallback chain
+            if gemini_response:
                 return gemini_response
-            elif rag_response:
+            elif rag_response and "No relevant scripture" not in rag_response:
                 return rag_response
             else:
                 return "I apologize, but I couldn't generate a verified answer at this time."
-    
+
     async def _generate_conversational_response(self, verified_answer: str) -> List[str]:
         """
-        Convert verified answer into conversational messages.
-        
-        Args:
-            verified_answer: The verified, synthesized answer
-            
-        Returns:
-            List of short, conversational messages
+        Convert verified answer into conversational messages using Gemini.
         """
-                      
         conversational_prompt = self.conversational_prompt.format(
             verified_answer=verified_answer
         )
         
         try:
-                         
-            response = await self.openai_client.chat.completions.create(
-                model="gpt-4-turbo-preview",
-                messages=[
-                    {
-                        "role": "system",
-                        "content": "You are an expert at converting information into natural, conversational WhatsApp messages."
-                    },
-                    {
-                        "role": "user",
-                        "content": conversational_prompt
-                    }
-                ],
-                temperature=0.8,                                            
-                max_tokens=800
+            # Use Gemini to generate the conversational response
+            response = self.gemini_agent.model.generate_content(
+                f"SYSTEM: You are an expert at converting information into natural, conversational WhatsApp messages.\n\n{conversational_prompt}"
             )
             
-            result = response.choices[0].message.content.strip()
-            
-                                
-            messages = [msg.strip() for msg in result.split("|||") if msg.strip()]
-            
-                                                 
-            if len(messages) > settings.MAX_MESSAGES_PER_RESPONSE:
-                messages = messages[:settings.MAX_MESSAGES_PER_RESPONSE]
-            
-                                         
-            if not messages:
-                messages = [verified_answer]
-            
-            logger.info(f"[Orchestrator] Generated {len(messages)} conversational messages")
-            
-            return messages
-            
+            if response and response.text:
+                result = response.text.strip()
+                messages = [msg.strip() for msg in result.split("|||") if msg.strip()]
+                
+                if len(messages) > settings.MAX_MESSAGES_PER_RESPONSE:
+                    messages = messages[:settings.MAX_MESSAGES_PER_RESPONSE]
+                
+                if not messages:
+                    messages = [verified_answer]
+                
+                logger.info(f"[Orchestrator] Generated {len(messages)} conversational messages (via Gemini)")
+                return messages
+            else:
+                raise ValueError("Empty response from Gemini conversation formatter")
+                
         except Exception as e:
-            logger.error(f"[Orchestrator] Conversational generation failed: {e}")
-                                                                
+            logger.error(f"[Orchestrator] Conversational generation failed (Gemini): {e}")
             return [verified_answer]
     
     def _extract_citations(self, text: str) -> List[Dict[str, Any]]:
